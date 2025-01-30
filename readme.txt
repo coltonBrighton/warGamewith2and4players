@@ -1,0 +1,1 @@
+When first opening this application please press 0 to exit the application and open the browser console. Then refresh your webpage and enter either 1) for 2 players or 2 for 4 players
