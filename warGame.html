@@ -4,8 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css" />
+
 </head>
-<body>
+<body class="bg-dark container">
+    <h1 class="display-1 text-light text-center mb-5">Choose number of players to simulate!</h1>
+    <div class="row text-center">
+        <div class="col-6">
+            <button id="btn-1" class="btn btn-lg btn-primary">Two Player</button> 
+        </div>
+        <div class="col-6">
+            <button id="btn-2" class="btn btn-lg btn-primary">Four Player</button>
+        </div>
+    </div>
+    <div>
+        <h2 id="alert" class="text-center text-light">scream at me</h2>
+    </div>
+    <table id="card-table" class="table table-striped text-center">
+        <tr>
+            <th class="col-lg">Turns</th>
+        </tr>
+    </table>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="./warGame.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
 </body>
 </html>
